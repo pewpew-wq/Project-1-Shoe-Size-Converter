@@ -10,6 +10,23 @@
 *.userosscache
 *.sln.docstates
 
+#ignore sublime projects
+*.sublime-projects
+*.sublime-workspace
+
+#ignore packages
+node_modules
+bower_components
+
+#ignore folder named 'dep'
+dep/
+
+#ignore generated files and folders
+*.log
+*.html
+*.css
+dist
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
